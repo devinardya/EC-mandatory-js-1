@@ -6,9 +6,8 @@ title.textContent = "Fruits & Vegetables Corp";
 let h1 = document.querySelector("h1");
 h1.textContent = "Fruits & Vegetables Corp";
 
-//change text on the last tag
+//change text on the last li tag
 const ul = document.querySelector("ul");
-const li = document.querySelector("li");
 
 let item = ul.lastElementChild;
 ul.removeChild(item);
@@ -43,7 +42,6 @@ contactTitle.textContent = "Contact";
 contact.appendChild(contactTitle);
 
 contact.insertBefore(contactTitle, contact.childNodes[0]);
-
 
 // Adding main.css to head
 let head = document.querySelector("head");
